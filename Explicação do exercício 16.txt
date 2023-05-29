@@ -1,0 +1,24 @@
+Neste código, temos uma função chamada calculadora que simula uma calculadora básica.
+
+
+A função recebe três parâmetros: valor1, que é o primeiro valor numérico; operador, que é uma string
+representando a operação a ser realizada; e valor2, que é o segundo valor numérico.
+
+Dentro da função, utilizamos uma estrutura switch para determinar qual operação deve ser realizada com
+base no valor do operador. O código verifica o valor da variável operador e executa o bloco de código
+correspondente ao caso encontrado.
+
+No caso +, a função imprime a soma de valor1 e valor2 utilizando console.log(valor1 + valor2).
+
+No caso -, a função imprime a subtração de valor1 e valor2 utilizando console.log(valor1 - valor2).
+
+No caso *, a função imprime a multiplicação de valor1 e valor2 utilizando console.log(valor1 * valor2).
+
+No caso /, a função imprime a divisão de valor1 por valor2 utilizando console.log(valor1 / valor2).
+
+Se nenhum dos casos acima corresponder ao operador fornecido, o bloco de código default é executado, e
+a função imprime a mensagem "Operador inválido!".
+
+Após a definição da função, temos quatro chamadas da função calculadora com diferentes argumentos, para
+testar as operações. No último caso, é utilizado um operador inválido ("%") para verificar o comportamento
+do bloco default do switch.
